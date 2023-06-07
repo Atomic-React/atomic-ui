@@ -1,6 +1,6 @@
 # ⚛️ Atomic UI by Atomic React
 
-Atomic UI is a component library for React.
+Atomic UI is a component library based on [Tailwind CSS](https://tailwindcss.com/) for [React](https://react.dev/).
 
 ## Setup
 
