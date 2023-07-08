@@ -30,7 +30,7 @@ const Button = ({ children = null, variant = 'primary', isGradient = false, isOu
 	return (
 		<button
 			className={ `atomic-flex ${ iconOrientation === 'left' ? 'atomic-flex-row' : 'atomic-flex-row-reverse' } atomic-items-center atomic-gap-2 ${ getVariantClassName() } atomic-rounded-md atomic-py-2 atomic-px-4 atomic-shadow-md disabled:atomic-opacity-60 disabled:atomic-cursor-default ${ className }` }
-			disabled={ isDisabled }
+			disabled={ isLoading || isDisabled }
 			type="button"
 			{ ...rest }
 		>
