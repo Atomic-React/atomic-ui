@@ -149,11 +149,11 @@ export default {
 			colors: {
 				primary: {
 					default: '#C026D3',
+					hover: '#A21CAF',
 					left: '#EC4899',
 					'left-hover': '#DB2777',
 					right: '#A855F7',
 					'right-hover': '#9333EA',
-					hover: '#A21CAF',
 					text: '#F8FAFC',
 				},
 				secondary: {
